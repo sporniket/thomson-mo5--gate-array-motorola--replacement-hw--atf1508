@@ -1,0 +1,20 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid da32499c-155d-4bc6-9a5a-b89344c3a2af)
+
+  (paper "A4" portrait)
+
+  (title_block
+    (title "Replacement of the Motorola gate array by ATF1508 CPLD")
+    (date "2025-05-17")
+    (rev "DRAFT-0")
+    (company "Sporniket")
+    (comment 1 "For the 8-bits computer known as 'Thomson MO5' released in 1984")
+    (comment 3 "...thomson-mo5--gate-array-motorola--replacement-hw--atf1508")
+    (comment 4 "Original repository : https://github.com/sporniket/...")
+  )
+
+  (lib_symbols
+  )
+
+)

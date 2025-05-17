@@ -1,0 +1,71 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 04881907-557f-4bbf-81fb-63c3424a1f56)
+
+  (paper "A4" portrait)
+
+  (title_block
+    (title "Replacement of the Motorola gate array by ATF1508 CPLD")
+    (date "2025-05-17")
+    (rev "DRAFT-0")
+    (company "Sporniket")
+    (comment 1 "For the 8-bits computer known as 'Thomson MO5' released in 1984")
+    (comment 3 "...thomson-mo5--gate-array-motorola--replacement-hw--atf1508")
+    (comment 4 "Original repository : https://github.com/sporniket/...")
+  )
+
+  (lib_symbols
+  )
+
+
+  (text "Page 3" (at 184.15 100.33 0)
+    (effects (font (size 1.27 1.27) bold) (justify right bottom))
+    (uuid 654e4f61-6c7b-492e-8e67-92b8fd81373a)
+  )
+  (text "Page 2" (at 184.15 74.93 0)
+    (effects (font (size 1.27 1.27) bold) (justify right bottom))
+    (uuid 6846e0b8-1c6a-4c42-bbea-48d5b81cc05e)
+  )
+  (text "Table of Content" (at 22.86 38.1 0)
+    (effects (font (size 12.7 12.7) (thickness 2.54) bold) (justify left bottom))
+    (uuid 9faf8f1b-4f06-4786-b1b8-6f1858162c6a)
+  )
+
+  (sheet (at 25.4 63.5) (size 160.02 12.7) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 01c5ed34-7d13-4e1e-8741-0da82dc21da9)
+    (property "Sheetname" "CPLD" (at 25.4 62.7884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "subsheet_01.kicad_sch" (at 25.4 76.7846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "mo5-ga-motorola-repl--atf1508"
+        (path "/04881907-557f-4bbf-81fb-63c3424a1f56" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 25.4 88.9) (size 160.02 12.7) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 2f3e2774-89af-48f0-a289-d0988ad66b48)
+    (property "Sheetname" "Gate array port" (at 25.4 88.1884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "subsheet_02.kicad_sch" (at 25.4 102.1846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "mo5-ga-motorola-repl--atf1508"
+        (path "/04881907-557f-4bbf-81fb-63c3424a1f56" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
