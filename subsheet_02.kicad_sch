@@ -1018,7 +1018,7 @@
   (symbol (lib_id "gate_array_v1:GATE_ARRAY_MO5_V1_SOCKET") (at 105.41 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e912817c-b817-4632-94b7-248c0e015e0f)
-    (property "Reference" "U2" (at 124.46 91.44 0)
+    (property "Reference" "J2" (at 124.46 91.44 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (property "Value" "GATE_ARRAY_MO5_V1_SOCKET" (at 124.46 93.98 0)
@@ -1101,7 +1101,7 @@
     (instances
       (project "mo5-ga-motorola-repl--atf1508"
         (path "/04881907-557f-4bbf-81fb-63c3424a1f56/2f3e2774-89af-48f0-a289-d0988ad66b48"
-          (reference "U2") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
