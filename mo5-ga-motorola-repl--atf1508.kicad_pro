@@ -427,7 +427,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.508,
+        "clearance": 0.3048,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -449,13 +449,13 @@
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
-        "microvia_diameter": 0.762,
+        "microvia_diameter": 0.508,
         "microvia_drill": 0.3048,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.508,
-        "via_diameter": 0.762,
+        "track_width": 0.2032,
+        "via_diameter": 0.508,
         "via_drill": 0.3048,
         "wire_width": 6
       }
@@ -489,7 +489,7 @@
       "step": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "page-description.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
