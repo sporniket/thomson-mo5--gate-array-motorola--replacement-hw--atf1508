@@ -1174,7 +1174,7 @@
     (property "Value" "GATE_ARRAY_MO5_V1_SOCKET" (at 124.46 93.98 0)
       (effects (font (size 1.27 1.27) bold) (justify left top))
     )
-    (property "Footprint" "Package_LCC:PLCC-68_THT-Socket" (at 124.46 88.9 0)
+    (property "Footprint" "SpecialConnectors:gate_array_plcc68_staggered" (at 124.46 88.9 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "" (at 105.41 132.08 0)
