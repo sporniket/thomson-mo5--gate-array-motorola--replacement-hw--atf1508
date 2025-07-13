@@ -7,8 +7,8 @@
   (paper "A4" portrait)
   (title_block
     (title "Replacement of the Motorola gate array by ATF1508 CPLD")
-    (date "2025-05-24")
-    (rev "DRAFT-0")
+    (date "2025-07-13")
+    (rev "v1.0.0")
     (company "Sporniket")
     (comment 1 "For the 8-bits computer known as 'Thomson MO5' released in 1984")
     (comment 3 "...thomson-mo5--gate-array-motorola--replacement-hw--atf1508")
@@ -1452,6 +1452,8 @@
       (net 2 "GND") (pinfunction "GND") (pintype "passive") (tstamp f891aee4-540d-4c5b-b6e1-b45aa8fc0e79))
   )
 
+  (gr_circle (center 113.665 114.935) (end 114.935 114.935)
+    (stroke (width 0.1) (type solid)) (fill solid) (layer "F.SilkS") (tstamp b4dfd617-6907-4348-8bf5-adf2fa7a159e))
   (gr_line (start 85.117077 140.997077) (end 85.117077 114.327077)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 0a618401-904f-4143-8f53-430e21d090f1))
   (gr_arc (start 85.117077 140.997077) (mid 86.913128 141.741026) (end 87.657077 143.537077)
@@ -1468,6 +1470,9 @@
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp ac27bb03-caf3-4fe1-9533-7279bf7831db))
   (gr_line (start 118.137077 114.327077) (end 118.137077 139.727077)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp e32e7fed-707b-4260-a8e7-c6ef9d9ff908))
+  (gr_text "face\nup" (at 86.995 112.395) (layer "F.SilkS") (tstamp 5097ceac-b316-4c19-ae6a-c4aebef4dc73)
+    (effects (font (size 1 1) (thickness 0.1)) (justify left top))
+  )
 
   (segment (start 94.2594 125.5776) (end 92.71 125.5776) (width 0.2032) (layer "F.Cu") (net 1) (tstamp 030e3a89-4d18-4adc-bb43-20864cd8f107))
   (segment (start 109.093 125.0696) (end 108.077 125.0696) (width 0.2032) (layer "F.Cu") (net 1) (tstamp 144131f5-fadb-4bc0-8feb-1c6521bb12d6))

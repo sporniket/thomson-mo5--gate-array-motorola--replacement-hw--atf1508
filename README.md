@@ -1,34 +1,54 @@
-# HOW TO USE
+# Replacement of the Motorola gate array for the Thomson MO5 by Microchip ATF1508
 
-## Initialise your git repository
+> [WARNING] Please read carefully this note before using this project. It contains important facts.
 
-* clone this repository
-```
-git clone --recurse-submodules https://github.com/sporniket/seed-kicad.git your_project
-cd your_project
-```
-* Change the remote `origin` to your repository
-```
-git remote set-url origin https://your.repository/full/path/your_project.git
-```
-* Or remove the remote `origin`
-```
-git remote rm origin
-```
+Content
 
-* Replace this readme file by the template for a project readme, and edit to use your project name and repository url.
+1. What is **Replacement of the Motorola gate array for the Thomson MO5 by Microchip ATF1508**, and when to use it ?
+2. What should you know before using **Replacement of the Motorola gate array for the Thomson MO5 by Microchip ATF1508** ?
+3. How to use **Replacement of the Motorola gate array for the Thomson MO5 by Microchip ATF1508** ?
+4. Known issues
+5. Miscellanous
 
-```
-mv README-template.md README.md
-sed -i.bak \
-	-e 's/{HUMAN_READABLE_PROJECT_NAME}/My greatest project of all time/g' \
-	-e 's+{GITHUB_USER__REPOSITORY}+foo/bar+g' \
-	-e 's/{SPECIFIC TOOL}/something/g' \
-	README.md
-```
+## 1. What is **Replacement of the Motorola gate array for the Thomson MO5 by Microchip ATF1508**, and when to use it ?
 
-## Initialise a new Kicad project
+**Replacement of the Motorola gate array for the Thomson MO5 by Microchip ATF1508** is a hardware project to replace the original Motorola Gate Array of the Thomson MO5 8-bit computer, using an ATF1508.
 
-* Start Kicad
-* Create a new project located in your working copy of your git repository, or a new subfolder if you plan to manage several projects
-* Add the various libraries (symbols, footprints and 3d shapes) as project specific libraries.
+
+### Licence
+
+**Replacement of the Motorola gate array for the Thomson MO5 by Microchip ATF1508** is published under the Creative Commons CC0 license. You can find a copy of the licence there : https://creativecommons.org/publicdomain/zero/1.0/legalcode
+
+You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.
+
+**Replacement of the Motorola gate array for the Thomson MO5 by Microchip ATF1508** is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+### Release notes
+
+#### Version 1.0.0
+
+Initial release.
+
+## 2. What should you know before using **Replacement of the Motorola gate array for the Thomson MO5 by Microchip ATF1508** ?
+
+**Replacement of the Motorola gate array for the Thomson MO5 by Microchip ATF1508** is made using Kicad.
+
+> Do not use **Replacement of the Motorola gate array for the Thomson MO5 by Microchip ATF1508** if this project is not suitable for your project.
+
+## 3. How to use **Replacement of the Motorola gate array for the Thomson MO5 by Microchip ATF1508** ?
+
+### From sources
+
+To get the latest available work, one must clone the git repository, build and install the package.
+
+	git clone https://github.com/sporniket/thomson-mo5--gate-array-motorola--replacement-hw--atf1508.git
+
+Then, open the project with Kicad.
+
+## 4. Known issues
+See the [project issues](https://github.com/sporniket/thomson-mo5--gate-array-motorola--replacement-hw--atf1508/issues) page.
+
+## 5. Miscellanous
+
+### Report issues
+Use the [project issues](https://github.com/sporniket/thomson-mo5--gate-array-motorola--replacement-hw--atf1508/issues) page.
