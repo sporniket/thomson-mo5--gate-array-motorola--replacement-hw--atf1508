@@ -29,11 +29,17 @@ You can copy, modify, distribute and perform the work, even for commercial purpo
 
 Initial release.
 
+> Note : I did something with the 2×4 header connector footprint, believing that it would held better the connector, but it does not help at all, sorry. I will fix this when I have time, it is just a bit inconvenient.
+
 ## 2. What should you know before using **Replacement of the Motorola gate array for the Thomson MO5 by Microchip ATF1508** ?
 
 **Replacement of the Motorola gate array for the Thomson MO5 by Microchip ATF1508** is made using Kicad.
 
 > Do not use **Replacement of the Motorola gate array for the Thomson MO5 by Microchip ATF1508** if this project is not suitable for your project.
+
+### Fusemap file to program the ATF1508
+
+You will find the SVF file in the `fusemap` folder.
 
 ### Bill Of Material (BOM)
 

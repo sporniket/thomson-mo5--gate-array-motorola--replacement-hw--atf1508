@@ -1,0 +1,103 @@
+Pin Name/Usage               : Location  : Dir.   : I/O Standard      : Voltage : I/O Bank  : User Assignment
+-------------------------------------------------------------------------------------------------------------
+RESERVED                     : 1         :        :                   :         :           :                
+RESERVED                     : 2         :        :                   :         :           :                
+VCCIO                        : 3         : power  :                   : 5.0V    :           :                
+TDI                          : 4         : input  : TTL               :         :           : Y              
+INILText                     : 5         : output : TTL               :         :           : Y              
+RESERVED                     : 6         :        :                   :         :           :                
+SYNLText                     : 7         : output : TTL               :         :           : Y              
+RESERVED                     : 8         :        :                   :         :           :                
+RESERVED                     : 9         :        :                   :         :           :                
+RESERVED                     : 10        :        :                   :         :           :                
+GND                          : 11        : gnd    :                   :         :           :                
+nCASCOLext                   : 12        : output : TTL               :         :           : Y              
+MAext[7]                     : 13        : output : TTL               :         :           : Y              
+MAext[3]                     : 14        : output : TTL               :         :           : Y              
+TMS                          : 15        : input  : TTL               :         :           : Y              
+MAext[2]                     : 16        : output : TTL               :         :           : Y              
+RESERVED                     : 17        :        :                   :         :           :                
+VCCIO                        : 18        : power  :                   : 5.0V    :           :                
+RESERVED                     : 19        :        :                   :         :           :                
+MAext[1]                     : 20        : output : TTL               :         :           : Y              
+MAext[0]                     : 21        : output : TTL               :         :           : Y              
+nCASPText                    : 22        : output : TTL               :         :           : Y              
+nRASext                      : 23        : output : TTL               :         :           : Y              
+MAext[6]                     : 24        : output : TTL               :         :           : Y              
+MAext[5]                     : 25        : output : TTL               :         :           : Y              
+GND                          : 26        : gnd    :                   :         :           :                
+MAext[4]                     : 27        : output : TTL               :         :           : Y              
+RESERVED                     : 28        :        :                   :         :           :                
+AdresseCPUext[12]            : 29        : input  : TTL               :         :           : Y              
+AdresseCPUext[11]            : 30        : input  : TTL               :         :           : Y              
+AdresseCPUext[10]            : 31        : input  : TTL               :         :           : Y              
+AdresseCPUext[9]             : 32        : input  : TTL               :         :           : Y              
+RESERVED                     : 33        :        :                   :         :           :                
+VCCIO                        : 34        : power  :                   : 5.0V    :           :                
+RESERVED                     : 35        :        :                   :         :           :                
+AdresseCPUext[8]             : 36        : input  : TTL               :         :           : Y              
+AdresseCPUext[7]             : 37        : input  : TTL               :         :           : Y              
+GND                          : 38        : gnd    :                   :         :           :                
+VCCINT                       : 39        : power  :                   : 5.0V    :           :                
+RESERVED                     : 40        :        :                   :         :           :                
+RESERVED                     : 41        :        :                   :         :           :                
+AdresseCPUext[6]             : 42        : input  : TTL               :         :           : Y              
+GND                          : 43        : gnd    :                   :         :           :                
+AdresseCPUext[5]             : 44        : input  : TTL               :         :           : Y              
+AdresseCPUext[4]             : 45        : input  : TTL               :         :           : Y              
+AdresseCPUext[3]             : 46        : input  : TTL               :         :           : Y              
+AdresseCPUext[2]             : 47        : input  : TTL               :         :           : Y              
+AdresseCPUext[1]             : 48        : input  : TTL               :         :           : Y              
+AdresseCPUext[0]             : 49        : input  : TTL               :         :           : Y              
+DataCPUext[7]                : 50        : bidir  : TTL               :         :           : Y              
+VCCIO                        : 51        : power  :                   : 5.0V    :           :                
+DataCPUext[6]                : 52        : bidir  : TTL               :         :           : Y              
+DataCPUext[5]                : 53        : bidir  : TTL               :         :           : Y              
+DataCPUext[4]                : 54        : bidir  : TTL               :         :           : Y              
+DataCPUext[3]                : 55        : bidir  : TTL               :         :           : Y              
+DataCPUext[2]                : 56        : bidir  : TTL               :         :           : Y              
+DataCPUext[1]                : 57        : bidir  : TTL               :         :           : Y              
+DataCPUext[0]                : 58        : bidir  : TTL               :         :           : Y              
+GND                          : 59        : gnd    :                   :         :           :                
+RESERVED                     : 60        :        :                   :         :           :                
+RESERVED                     : 61        :        :                   :         :           :                
+TCK                          : 62        : input  : TTL               :         :           : Y              
+RESERVED                     : 63        :        :                   :         :           :                
+nCASEXText                   : 64        : output : TTL               :         :           : Y              
+nEext                        : 65        : output : TTL               :         :           : Y              
+VCCIO                        : 66        : power  :                   : 5.0V    :           :                
+Eext                         : 67        : output : TTL               :         :           : Y              
+Qext                         : 68        : output : TTL               :         :           : Y              
+RESERVED                     : 69        :        :                   :         :           :                
+nDATAVALIDext                : 70        : output : TTL               :         :           : Y              
+RESERVED                     : 71        :        :                   :         :           :                
+RESERVED                     : 72        :        :                   :         :           :                
+TDO                          : 73        : output : TTL               :         :           : Y              
+GND                          : 74        : gnd    :                   :         :           :                
+AdresseCPUext[15]            : 75        : input  : TTL               :         :           : Y              
+AdresseCPUext[14]            : 76        : input  : TTL               :         :           : Y              
+AdresseCPUext[13]            : 77        : input  : TTL               :         :           : Y              
+FormeExt                     : 78        : input  : TTL               :         :           : Y              
+RnWext                       : 79        : input  : TTL               :         :           : Y              
+nCSCOLext                    : 80        : input  : TTL               :         :           : Y              
+RESERVED                     : 81        :        :                   :         :           :                
+VCCIO                        : 82        : power  :                   : 5.0V    :           :                
+RESERVED                     : 83        :        :                   :         :           :                
+RESERVED                     : 84        :        :                   :         :           :                
+StartUpResetExt              : 85        : input  : TTL               :         :           : N              
+GND                          : 86        : gnd    :                   :         :           :                
+H16Ext                       : 87        : input  : TTL               :         :           : Y              
+GND+                         : 88        :        :                   :         :           :                
+GND+                         : 89        :        :                   :         :           :                
+GND+                         : 90        :        :                   :         :           :                
+VCCINT                       : 91        : power  :                   : 5.0V    :           :                
+RESERVED                     : 92        :        :                   :         :           :                
+RESERVED                     : 93        :        :                   :         :           :                
+nCSEXText                    : 94        : input  : TTL               :         :           : Y              
+GND                          : 95        : gnd    :                   :         :           :                
+nCSPText                     : 96        : input  : TTL               :         :           : Y              
+nCKLPext                     : 97        : input  : TTL               :         :           : Y              
+SYCLext                      : 98        : input  : TTL               :         :           : Y              
+nPOINText                    : 99        : output : TTL               :         :           : Y              
+nSUPLText                    : 100       : output : TTL               :         :           : Y              
+
